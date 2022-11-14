@@ -11,27 +11,58 @@ cable. USART2 is available on connector J1 as well. Alternatively, any other sui
 * The footprint of the board is 32x54 mm and its 2.54 mm pitch headers allow it to be used with standard breadboards.
 
 
-**I/O connectors Pinout**
+**I/O connectors (J2, J4) Pinout**
 
-| J2     |          |   | J4     |           |
-|--------|----------|---|--------|-----------|
-| Pin no | Pin name |   | Pin no | Pin name  |
-| 1      | GND      |   | 1      | PB9       |
-| 2      | Load 1)  |   | 2      | PB8       |
-| 3      | PA0      |   | 3      | PB7       |
-| 4      | PA1      |   | 4      | PB6       |
-| 5      | PA4      |   | 5      | PB5       |
-| 6      | PA5      |   | 6      | PB4       |
-| 7      | PA6      |   | 7      | PB3       |
-| 8      | PA7      |   | 8      | PA15      |
-| 9      | PB0      |   | 9      | PA12      |
-| 10     | PB1      |   | 10     | PA11      |
-| 11     | PB2      |   | 11     | PA10      |
-| 12     | PB10     |   | 12     | PA9       |
-| 13     | PB11     |   | 13     | PA8       |
-| 14     | PB12     |   | 14     | PB15      |
-| 15     | PB13     |   | 15     | GND       |
-| 16     | PB14     |   | 16     | VPP (+5V) |
+<table>
+<tr>
+<th>J2</th>
+<th>J4</th>
+</tr>
+<tr>
+
+<td>
+
+| Pin no | Pin name |
+|--------|----------|
+| 1      | GND      |
+| 2      | Load 1)  |
+| 3      | PA0      |
+| 4      | PA1      |
+| 5      | PA4      |
+| 6      | PA5      |
+| 7      | PA6      |
+| 8      | PA7      |
+| 9      | PB0      |
+| 10     | PB1      |
+| 11     | PB2      |
+| 12     | PB10     |
+| 13     | PB11     |
+| 14     | PB12     |
+| 15     | PB13     |
+| 16     | PB14     |
+
+</td><td>
+
+| Pin no | Pin name  |
+|--------|-----------|
+| 1      | PB9       |
+| 2      | PB8       |
+| 3      | PB7       |
+| 4      | PB6       |
+| 5      | PB5       |
+| 6      | PB4       |
+| 7      | PB3       |
+| 8      | PA15      |
+| 9      | PA12      |
+| 10     | PA11      |
+| 11     | PA10      |
+| 12     | PA9       |
+| 13     | PA8       |
+| 14     | PB15      |
+| 15     | GND       |
+| 16     | VPP (+5V) |
+
+</td></tr> </table>
 
 *Notes:*
 
